@@ -1,0 +1,101 @@
+/* =====================================
+   MASTERTRADE AI - GLOBAL STYLE
+===================================== */
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+body{
+    background:#111;
+    color:#fff;
+    font-family:Arial,Helvetica,sans-serif;
+    line-height:1.6;
+}
+
+.container{
+    width:90%;
+    max-width:1200px;
+    margin:auto;
+}
+
+.card{
+    background:#1d1d1d;
+    border-radius:12px;
+    padding:20px;
+    margin-bottom:20px;
+}
+
+.title{
+    font-size:28px;
+    font-weight:bold;
+    margin-bottom:15px;
+}
+
+.subtitle{
+    color:#bbb;
+    margin-bottom:20px;
+}
+
+.btn{
+    display:inline-block;
+    padding:12px 24px;
+    background:#00c853;
+    color:#fff;
+    border:none;
+    border-radius:8px;
+    text-decoration:none;
+    cursor:pointer;
+}
+
+.btn:hover{
+    background:#00e676;
+}
+
+.input{
+    width:100%;
+    padding:12px;
+    border-radius:8px;
+    border:1px solid #444;
+    background:#222;
+    color:white;
+}
+
+.table{
+    width:100%;
+    border-collapse:collapse;
+}
+
+.table th{
+    background:#00c853;
+    padding:12px;
+}
+
+.table td{
+    border-bottom:1px solid #333;
+    padding:12px;
+}
+
+.buy{
+    color:#00ff66;
+    font-weight:bold;
+}
+
+.sell{
+    color:#ff4444;
+    font-weight:bold;
+}
+
+.center{
+    text-align:center;
+}
+
+.mt20{
+    margin-top:20px;
+}
+
+.mb20{
+    margin-bottom:20px;
+}
