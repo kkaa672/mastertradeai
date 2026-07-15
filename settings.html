@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Pengaturan - MASTERTRADE AI</title>
+
+<style>
+
+body{
+margin:0;
+background:#111;
+font-family:Arial,sans-serif;
+color:white;
+}
+
+header{
+background:#000;
+padding:20px;
+text-align:center;
+font-size:30px;
+font-weight:bold;
+}
+
+.container{
+max-width:1000px;
+margin:auto;
+padding:20px;
+}
+
+.card{
+background:#1c1c1c;
+padding:20px;
+border-radius:12px;
+margin-bottom:20px;
+}
+
+label{
+display:block;
+margin-top:15px;
+font-weight:bold;
+}
+
+select,input{
+width:100%;
+padding:12px;
+margin-top:8px;
+background:#222;
+color:white;
+border:1px solid #444;
+border-radius:8px;
+}
+
+button{
+width:100%;
+padding:15px;
+margin-top:20px;
+background:#00c853;
+color:white;
+border:none;
+border-radius:10px;
+font-size:18px;
+cursor:pointer;
+}
+
+button:hover{
+background:#00e676;
+}
+
+footer{
+text-align:center;
+padding:20px;
+color:#888;
+}
+
+</style>
+
+</head>
+
+<body>
+
+<header>
+
+MASTERTRADE AI SETTINGS
+
+</header>
+
+<div class="container">
+
+<div class="card">
+
+<h2>Pengaturan Analisis</h2>
+
+<label>Pair Favorit</label>
+
+<select>
+
+<option>XAUUSD</option>
+<option>EURUSD</option>
+<option>GBPUSD</option>
+<option>USDJPY</option>
+<option>BTCUSD</option>
+
+</select>
+
+<label>Timeframe</label>
+
+<select>
+
+<option>M1</option>
+<option>M5</option>
+<option>M15</option>
+<option>M30</option>
+<option>H1</option>
+<option>H4</option>
+
+</select>
+
+<label>Modal</label>
+
+<input type="number" placeholder="Contoh: 100">
+
+<label>Risiko</label>
+
+<select>
+
+<option>Low</option>
+<option>Medium</option>
+<option>High</option>
+
+</select>
+
+<button onclick="simpan()">
+
+SIMPAN PENGATURAN
+
+</button>
+
+</div>
+
+</div>
+
+<footer>
+
+MASTERTRADE AI © 2026
+
+</footer>
+
+<script>
+
+function simpan(){
+
+alert("Pengaturan berhasil disimpan (versi demo).");
+
+}
+
+</script>
+
+</body>
+</html>
